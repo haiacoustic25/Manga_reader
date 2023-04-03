@@ -1,0 +1,129 @@
+#manga-slider {
+  padding: 20px 0;
+}
+.dark .sih-title {
+  color: #fff;
+}
+.sih-title {
+  font-size: 24px !important;
+  line-height: 40px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  color: #5f25a6;
+}
+.sih-list {
+  margin: 0 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.sih-item {
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+}
+#manga-slider .slick-slide > div {
+  padding: 0 10px;
+}
+.sih-item .manga-poster .manga-poster-img {
+  width: 100%;
+  height: auto;
+}
+.sih-item .manga-detail {
+  padding: 10px 0;
+}
+.sih-item .manga-name {
+  font-size: 1em;
+  line-height: 1.4;
+}
+.sih-item .fd-infor {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.dark .sih-item .manga-name a {
+  color: #fff;
+}
+.dark .sih-item .fd-infor {
+  color: #999 !important;
+}
+.dark .sih-item .fd-infor a {
+  color: #999 !important;
+}
+#manga-slider .swiper-button-next {
+  top: -50px;
+  /* bottom:100%; */
+  right: 0%;
+  background: #f5f5f5;
+}
+#manga-slider .swiper-button-prev {
+  top: -50px;
+  left: calc(100% - 95px);
+  background: #f5f5f5;
+}
+.dark #manga-slider .swiper-button-next {
+  background: #4f4f4f;
+}
+.dark #manga-slider .swiper-button-prev {
+  background: #4f4f4f;
+}
+.dark #manga-slider .swiper-button-icon {
+  color: #fff;
+}
+.dark .sih-item .manga-poster .mp-desc {
+  background: #4f4f4f;
+}
+.dark .sih-item .manga-poster .mp-desc strong {
+  color: #fff;
+}
+.sih-item .manga-poster .mp-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0px;
+  bottom: 0;
+  cursor: grab;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 99;
+  display: none;
+  height: calc(100% - 102px);
+}
+.sih-item:hover .manga-poster .mp-desc {
+  /* opacity: 1; */
+  display: block;
+  /* transform: scale(1); */
+  animation: leaves 0.5s ease-in;
+}
+.tick-item.tick-lang {
+  position: absolute;
+  background: #99f42c;
+  color: #111;
+  bottom: auto;
+  left: 5px;
+  top: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+  line-height: 25px;
+  padding: 0 6px;
+  border-radius: 3px;
+  color: #111;
+  margin-right: 3px;
+}
+@keyframes leaves {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sih-item:hover .manga-poster .mp-desc {
+    display: none;
+    animation: leaves 0.5s ease-in;
+  }
+}

@@ -1,0 +1,428 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap);
+html {
+  position: relative;
+}
+
+body {
+  background: #fff;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  color: #111;
+  font-size: 14px;
+  line-height: 1.4em;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  -webkit-text-size-adjust: none;
+}
+
+a {
+  color: #111;
+  text-decoration: none !important;
+  outline: 0;
+  -moz-outline: none;
+}
+
+a:hover {
+  color: #5f25a6;
+}
+
+body.darkmode {
+  background-color: #1f1f1f;
+  color: #ddd;
+}
+
+body.darkmode .checked-list li::before,
+body.darkmode .text-primary {
+  color: #c49bff !important;
+}
+
+body.darkmode .btn,
+body.darkmode .chapter-section .chapter-s-search .css-icon i,
+body.darkmode a {
+  color: #ddd;
+}
+
+body.darkmode .cbox.cbox-list .featured-block-chart li .manga-detail .fdi-chapter a,
+body.darkmode .dwl-ul .dwl-item .on-chapt a,
+body.darkmode .inbox-item .highlight-text,
+body.darkmode .manga_list-sbs .mls-wrap .item .manga-detail .fd-list .fdl-item .chapter a,
+body.darkmode .news-article .news-title,
+body.darkmode .rtf-content .arrow i,
+body.darkmode .table_schedule .table_schedule-list li .manga-detail .fd-play .btn-play,
+body.darkmode .table_schedule .table_schedule-list li .time,
+body.darkmode a:hover {
+  color: #c49bff;
+}
+
+body.darkmode #sidebar_menu .sidebar_menu-list > .nav-item .nav > .nav-item > .nav-link:hover,
+body.darkmode #sidebar_menu .sidebar_menu-list > .nav-item > .nav-link:hover,
+body.darkmode .anw-tabs .nav-item .nav-link:hover,
+body.darkmode .cw_l-line .ibody p a.tag-name,
+body.darkmode .cw_l-line .ibottom .ib-li .btn.active,
+body.darkmode .cw_l-line .ibottom .ib-li .btn:hover,
+body.darkmode .featured-block-ul li .manga-detail .fd-infor .fdi-item.fdi-chapter a,
+body.darkmode .mr-ranking span,
+body.darkmode .read-tips .read-tips-follow .notice .highlight-text,
+body.darkmode .stx-center .stx-title {
+  color: #c49bff;
+}
+
+body.darkmode #footer,
+body.darkmode .category_block.category_block-home,
+body.darkmode .continue-home {
+  background-color: #1f1f1f;
+}
+
+body.darkmode .dwl-ul .swiper-container:after,
+body.darkmode .dwl-ul .swiper-container:before {
+  display: none;
+}
+
+body.darkmode #read-comment,
+body.darkmode #read-comment .rc-close,
+body.darkmode #sidebar_menu,
+body.darkmode .anw-tabs,
+body.darkmode .category_block .c_b-list .item a,
+body.darkmode .cbox.cbox-list .featured-block-chart li .ranking-number,
+body.darkmode .comments-wrap .sc-header,
+body.darkmode .ctn-item,
+body.darkmode .dwl-ul .dwl-item,
+body.darkmode .inbox-item,
+body.darkmode .item-keyword,
+body.darkmode .premodal .modal-content,
+body.darkmode .read-tips .rtf-content,
+body.darkmode .read-tips-layout,
+body.darkmode .stx-center {
+  background-color: #2f2f2f;
+  color: #ddd;
+}
+
+body.darkmode #ani_detail .ani_detail-stage,
+body.darkmode .chapters-list-ul ul .item a,
+body.darkmode .cmbg-wrap .item,
+body.darkmode .d-block-border,
+body.darkmode .featured-navi > div,
+body.darkmode .sbs-text .sbst-row .sr-items a {
+  background-color: #2f2f2f;
+  color: #ddd;
+}
+
+body.darkmode #header.home-header,
+body.darkmode #text-home,
+body.darkmode .deslide-wrap {
+  background-color: #1f1f1f;
+  color: #ddd;
+}
+
+body.darkmode .featured-navi > div.swiper-button-disabled,
+body.darkmode .menu-profiles li .mp-item,
+body.darkmode .mr-ranking,
+body.darkmode .table_schedule .table_schedule-date .tsd-item {
+  background-color: #2f2f2f !important;
+  color: #999 !important;
+}
+
+body.darkmode .menu-profiles li .mp-item.active {
+  background-color: #2f2f2f !important;
+  color: #999 !important;
+}
+
+body.darkmode .anis-content .anisc-detail .genres a:hover,
+body.darkmode .chapters-list-ul ul .item:hover a,
+body.darkmode .cmbg-wrap .item.active,
+body.darkmode .cmbg-wrap .item:hover,
+body.darkmode .profile-avatar .pa-edit,
+body.darkmode .sbs-text .sbst-row .sr-items a:hover {
+  color: #c49bff !important;
+}
+
+body.darkmode .chapters-list-ul ul .item .item-read,
+body.darkmode .pre-pagination .pagination .page-item .page-link {
+  background-color: #3f3f3f;
+  color: #999;
+}
+
+body.darkmode .menu-profiles li.active .mp-item,
+body.darkmode .pre-pagination .pagination .page-item.active .page-link,
+body.darkmode .table_schedule .table_schedule-date .tsd-item.active,
+body.darkmode .table_schedule .table_schedule-list li .manga-detail .fd-play .btn-play:hover {
+  background-color: #5f25a6 !important;
+  color: #fff !important;
+}
+
+body.darkmode .premodal .btn.btn-primary {
+  background-color: #c49bff !important;
+  color: #111 !important;
+}
+
+body.darkmode .mp-desc .mpd-buttons .btn-light,
+body.darkmode .ts-navigation .btn {
+  background-color: #2f2f2f !important;
+  color: #ddd !important;
+}
+
+body.darkmode .dwl-ul .dwl-item > .comment-avatar {
+  border-color: transparent;
+}
+
+body.darkmode #discussion .pre-tabs .nav-item .nav-link.active {
+  background: 0 0 !important;
+  color: #c49bff !important;
+  border-color: #c49bff !important;
+}
+
+body.darkmode .block_area .block_area-header .cat-heading {
+  color: #fff;
+}
+
+body.darkmode #header {
+  background: #7b36ce;
+}
+
+body.darkmode .dwl-ul .swiper-container .swiper-scrollbar {
+  background: #3f3f3f;
+}
+
+body.darkmode #manga-trending {
+  background: #2c2c2c;
+  background: linear-gradient(0deg, #2c2c2c 0, #1f1f1f 100%);
+}
+
+body.darkmode #discussion .discussion-bg {
+  filter: grayscale(1);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+body.darkmode .trending-list .item .number {
+  background: #4f4f4f;
+  background: linear-gradient(0deg, rgba(79, 79, 79, 0) 0, #4f4f4f 100%);
+}
+
+body.darkmode .category_block .c_b-list .item a span,
+body.darkmode .cw_l-line .ihead > div.time {
+  color: #999 !important;
+}
+
+body.darkmode .mg-item-basic .fd-infor a {
+  color: #999 !important;
+}
+
+body.darkmode .mg-item-basic .fd-infor a:hover {
+  color: #c49bff !important;
+}
+
+body.darkmode #sidebar_menu .sidebar_menu-list > .nav-item,
+body.darkmode .block_area_mal,
+body.darkmode .cbox.cbox-list .featured-block-chart li .manga-detail .fdi-view,
+body.darkmode .continue-home,
+body.darkmode .manga_list-sbs .mls-wrap .item .manga-detail .fd-list .fdl-item,
+body.darkmode .search-content .search-result-pop .nav-item,
+body.darkmode .table_schedule .table_schedule-list li {
+  border-color: #3f3f3f;
+}
+
+body.darkmode .new-noti-list .nnl-item {
+  border-color: #4f4f4f;
+}
+
+body.darkmode .mp-desc {
+  background: #4f4f4f;
+}
+
+body.darkmode .ctn-item .ctn-detail .manga-detail .reading-load .rl-loaded,
+body.darkmode .read-tips .read-tips-follow .notice {
+  background: #3f3f3f;
+}
+
+body.darkmode .ctn-item .ctn-detail .manga-detail .reading-load .rl-text {
+  color: #c49bff;
+}
+
+body.darkmode .ctn-item .ctn-detail .manga-detail .reading-load {
+  background: 0 0;
+}
+
+body.darkmode .cbox.cbox-list .featured-block-chart li.item-top .ranking-number span,
+body.darkmode .link-highlight {
+  color: #c49bff !important;
+}
+
+body.darkmode #header_menu .header_menu-sub,
+body.darkmode .search-content .search-result-pop {
+  background: #3f3f3f;
+}
+
+body.darkmode .dropdown-menu-model {
+  background: #4f4f4f;
+  color: #ddd;
+}
+
+body.darkmode .hr-navigation .dropdown-menu-fixed {
+  background-color: #222 !important;
+}
+
+body.darkmode #sidebar_menu .toggle-sidebar,
+body.darkmode .ctn-item .ctn-detail .manga-detail .dr-remove .dropdown-item,
+body.darkmode .dropdown-menu-model .dropdown-item,
+body.darkmode .dropdown-menu-noti {
+  background: #3f3f3f !important;
+  color: #ddd !important;
+}
+
+body.darkmode #header_menu .header_menu-sub ul.sub-menu li:hover a,
+body.darkmode .dropdown-menu-model .dropdown-item.active,
+body.darkmode .dropdown-menu-model .dropdown-item.added,
+body.darkmode .dropdown-menu-model .dropdown-item.selected,
+body.darkmode .dropdown-menu-model .dropdown-item:hover,
+body.darkmode .new-noti-list .nnl-item:hover {
+  background: #4f4f4f !important;
+  color: #c49bff !important;
+}
+
+body.darkmode .new-noti-list .nnl-item.nnl-more,
+body.darkmode .new-noti-list .nnl-mark {
+  background: #4f4f4f !important;
+}
+
+body.darkmode .new-noti-list .nnl-mark a:hover {
+  color: #c49bff !important;
+}
+
+body.darkmode .header_right-user .dropdown-menu-model .dropdown-item.di-bottom {
+  background-color: #ffd702 !important;
+  color: #111 !important;
+}
+
+body.darkmode #home .top-home {
+  background: #2f2f2f !important;
+}
+
+body.darkmode #home .top-home:before {
+  background: #2f2f2f;
+  background: linear-gradient(0deg, rgba(47, 47, 47, 0) 0, #2f2f2f 73%);
+}
+
+body.darkmode .xhashtag .item {
+  border-color: #6f6f6f;
+  color: #999;
+}
+
+body.darkmode .xhashtag .item:hover {
+  color: #c49bff;
+}
+
+body.body-home.darkmode #footer {
+  color: #fff;
+}
+
+body.body-home.darkmode #footer a {
+  color: #fff;
+}
+
+.prebreadcrumb .breadcrumb .breadcrumb-item,
+body.darkmode .cate-sort .btn-sort {
+  color: #aaa !important;
+}
+
+body.darkmode .manga_list-sbs .mls-wrap .item {
+  padding: 1em;
+  margin-bottom: 20px;
+  border-radius: 0.75em;
+  background-color: #2f2f2f;
+}
+
+body.darkmode .manga_list-sbs .mls-wrap .item .manga-poster {
+  top: 1em;
+  left: 1em;
+}
+
+body.darkmode .anis-content .anisc-detail .genres a,
+body.darkmode .anis-content .anisc-detail .manga-buttons .btn-fav,
+body.darkmode .chapter-section,
+body.darkmode .preform .form-control,
+body.darkmode .premodal .modal-content .close,
+body.darkmode .types-sub .ts-item {
+  background-color: #3f3f3f !important;
+  color: #ddd !important;
+}
+
+body.darkmode .chapter-section .chapter-s-search .preform .form-control {
+  background-color: #5f5f5f !important;
+}
+
+body.darkmode .preform .form-control::placeholder {
+  color: #fff;
+  opacity: 0.4;
+}
+
+body.darkmode .anis-content .anisc-detail .manga-name-or,
+body.darkmode .anis-content .anisc-detail .manga-name-or span,
+body.darkmode .zr-news .item .description {
+  color: #999;
+}
+
+body.darkmode .s-tabs {
+  border-color: #f1eafb;
+}
+
+body.darkmode .nli-select .custom-select {
+  background-color: #1f1f1f;
+  color: #999;
+}
+
+body.darkmode .btn-light {
+  color: #ddd !important;
+  background: 0 0 !important;
+}
+
+body.darkmode .toggle-onoff {
+  background: #3f3f3f;
+}
+
+body.darkmode .toggle-onoff span {
+  background: #6f6f6f;
+}
+
+body.darkmode .toggle-onoff.active {
+  background: #5f25a6;
+}
+
+body.darkmode .toggle-onoff.active span {
+  background: #cca3ff;
+}
+
+body.darkmode .desi-buttons .btn {
+  color: #111 !important;
+}
+
+body.darkmode .comment-input .preform textarea.form-control {
+  border-color: #5f5f5f !important;
+}
+
+body.darkmode .cb-li .btn.btn-spoil.active i {
+  background: #c49bff;
+  color: #111;
+}
+
+body.darkmode .page-promote .ppo-embed .form-control[readonly] {
+  background: #4f4f4f;
+  color: #ddd;
+  border-color: transparent;
+}
+
+body.darkmode .chapter-list-read .chapter-section {
+  background-color: #333 !important;
+}
+
+body.darkmode .chapter-list-read .chapter-section .chapter-s-search .preform .form-control {
+  background-color: #444 !important;
+}
+
+body.darkmode .comment-focus > .info > .ibody {
+  background-color: #746095;
+}

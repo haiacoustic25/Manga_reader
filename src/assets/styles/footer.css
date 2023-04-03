@@ -1,0 +1,129 @@
+#footer {
+  padding: 0;
+  color: #fff;
+  position: relative;
+  background: #451184;
+  text-align: center;
+}
+.dark #footer {
+  background-color: #1f1f1f !important;
+  color: #fff !important;
+}
+.dark #footer.white {
+  background-color: #1f1f1f !important;
+  color: #fff !important;
+}
+#footer.white {
+  background: #fff !important;
+  color: #111 !important;
+}
+.dark #footer.white a {
+  color: #fff !important;
+}
+.dark .about-text {
+  color: #fff !important;
+}
+#footer.white a {
+  color: #111 !important;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer .container {
+  margin: auto;
+  position: relative;
+  z-index: 3;
+}
+
+#footer .footer-logo {
+  display: inline-block;
+}
+
+#footer .footer-logo img {
+  width: auto;
+  height: 60px;
+}
+
+#footer .footer-top {
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer-links ul {
+  padding: 0;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.footer-links ul li a {
+  height: 30px;
+  line-height: 30px;
+}
+
+#footer .btn-up {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  background: #363a4d;
+  color: #fff;
+  padding: 0;
+  line-height: 30px;
+}
+
+#footer-about {
+  padding: 30px 0;
+}
+
+#footer-about .about-text {
+  margin: 0 auto 20px;
+  line-height: 1.4em;
+  opacity: 0.5;
+}
+
+#footer-about .copyright {
+  margin-bottom: 20px !important;
+  opacity: 0.5;
+}
+
+#footer .toggle-footer .tf-item {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.footer-joingroup {
+  float: left;
+}
+
+.footer-joingroup .Mangareader-group {
+  display: inline-block;
+  padding: 0 0 0 30px;
+  border-left: 1px solid #444;
+  font-size: 12px;
+}
+
+.footer-joingroup .Mangareader-group .zrg-title {
+  padding-left: 5px;
+}
+
+.footer-joingroup .Mangareader-group .zrg-list .item:last-of-type {
+  margin-right: 0;
+}
+
+.footer-toggle-block {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 0;
+}

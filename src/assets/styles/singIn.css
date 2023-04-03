@@ -1,0 +1,32 @@
+.btn-submit {
+  background: #5f25a6;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  height: 45px;
+}
+.signIn-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.signIn-form {
+  padding: 0 40px;
+}
+
+.signIn-remember {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signIn-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
